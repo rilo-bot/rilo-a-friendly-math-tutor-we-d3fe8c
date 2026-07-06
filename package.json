@@ -1,0 +1,16 @@
+{
+  "name": "rilo-a-friendly-math-tutor-we-d3fe8c",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "npm@10.8.2"
+}
